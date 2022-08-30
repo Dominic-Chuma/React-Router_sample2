@@ -3,7 +3,13 @@ import './App.css';
 
 // Import Router & other pages that are to be routed to
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './pages/Layout';
+
+import Layout from './pages/layout/Layout';
+import Home from './pages/Home';
+import Features from './pages/Features';
+import Pricing from './pages/Pricing';
+
+
 
 function App() {
   return (
@@ -13,10 +19,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout/>}> 
           
-            {/* <Route index element={<Home/>} /> 
-            <Route path='blogs' element={<Blogs/>} /> 
-            <Route path='contact' element={<Contact/>} />
-            <Route path='*' element={<NoPage/>} /> */}
+            <Route index element={<Home/>} /> 
+            <Route path='features' element={<Features/>} /> 
+            <Route path='pricing' element={<Pricing/>} />
+            {/* <Route path='*' element={<NoPage/>} /> */}
             
            
           {/* </Route> */}
