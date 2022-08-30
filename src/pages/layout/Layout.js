@@ -12,14 +12,16 @@ let Layout = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Container>
+            {/*<Container fluid>*/} {/* Container made fluid to remove horizontal padding*/}
+            <Container fluid className='nav-bar-left nav-bar-right'>
                 {/* <Link></Link> */}
-                <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="/">Net-Zone</Navbar.Brand> {/* I initially used "Team-Net" */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="me-auto">
-                    <Nav.Link href="/features">Features</Nav.Link>
-                    <Nav.Link href="/pricing">Pricing</Nav.Link>
+
+                <Nav className="me-auto nav-bar-left">
+                    <Nav.Link href="/team">Team</Nav.Link>
+                    <Nav.Link href="/contact">Contact Us</Nav.Link>
                     
                 </Nav>
                 <Nav>
@@ -33,11 +35,7 @@ let Layout = () => {
                     <NavDropdown.Item href="#action/3.2">
                         Register
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">
-                        Separated link
-                    </NavDropdown.Item> */}
+                    
                     </NavDropdown>
                 </Nav>
                 </Navbar.Collapse>

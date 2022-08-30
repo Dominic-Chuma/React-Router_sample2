@@ -6,8 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Layout from './pages/layout/Layout';
 import Home from './pages/Home';
-import Features from './pages/Features';
-import Pricing from './pages/Pricing';
+import Team from './pages/Team';
+import Contact from './pages/Contact';
 
 
 
@@ -20,8 +20,8 @@ function App() {
           <Route path="/" element={<Layout/>}> 
           
             <Route index element={<Home/>} /> 
-            <Route path='features' element={<Features/>} /> 
-            <Route path='pricing' element={<Pricing/>} />
+            <Route path='team' element={<Team/>} /> 
+            <Route path='contact' element={<Contact/>} />
             {/* <Route path='*' element={<NoPage/>} /> */}
             
            

@@ -1,4 +1,4 @@
-const Features = () => {
+const Team = () => {
     return (
         <h1> My Features....! </h1>
         // <Link to='/products'><h1> My Blogs </h1></Link>
@@ -6,4 +6,4 @@ const Features = () => {
     )
 }
 
-export default Features;
+export default Team;
