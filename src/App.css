@@ -68,9 +68,10 @@
 
 .initial-div{
   height: 60px;
+  background: #eaeef0;
 }
 
 .demarcation-div{
-  background: #65c1db93;
+  background: #b7c4c9af;
   height: 60px;
 }
