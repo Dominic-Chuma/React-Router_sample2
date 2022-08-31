@@ -12,7 +12,7 @@ let Layout = () => {
     return (
         <>
             {/* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"> */}
-            <Navbar collapseOnSelect expand="lg" variant="dark" className='nav-style'>
+            <Navbar sticky="top" collapseOnSelect expand="lg" variant="dark" className='nav-style'>
             {/*<Container fluid>*/} {/* Container made fluid to remove horizontal padding*/}
             <Container fluid className='nav-bar-left nav-bar-right'>
                

@@ -65,3 +65,12 @@
 /* .carousel{
   margin: 0px !important;
 } */
+
+.initial-div{
+  height: 60px;
+}
+
+.demarcation-div{
+  background: #65c1db93;
+  height: 60px;
+}

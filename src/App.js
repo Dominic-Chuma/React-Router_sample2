@@ -15,6 +15,13 @@ function App() {
   return (
     <div className="App">
 
+      {/* Initial Div - Start */}
+      <div className='initial-div'>
+
+      </div>
+      {/* Initial Div - End */}
+
+      {/* Navigation Start.... */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout/>}> 
@@ -32,6 +39,14 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+
+      {/* Navigation End.... */}
+
+      {/* Demarcation Div - Start */}
+      <div className='demarcation-div'>
+
+      </div>
+      {/* Demarcation Div - End */}
 
     </div>
   );
