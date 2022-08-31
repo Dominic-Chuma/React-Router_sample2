@@ -46,3 +46,18 @@
 .nav-bar-right{
   padding-right: 30px !important;
 }
+
+.nav-style{ /* Styling for the navbar */
+  /* background: #61dafb; */
+  background: #086c88af;
+  color: #f6f8fa !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+.nav-brand{
+  font-style: italic;
+  font-family: Lucida Grande;
+  font-weight: bold;
+  font-size: 24px !important;
+}

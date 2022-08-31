@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import {Outlet, Link} from "react-router-dom";
+import {Outlet} from "react-router-dom";
 
 
 
@@ -11,11 +11,12 @@ import {Outlet, Link} from "react-router-dom";
 let Layout = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            {/* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"> */}
+            <Navbar collapseOnSelect expand="lg" variant="dark" className='nav-style'>
             {/*<Container fluid>*/} {/* Container made fluid to remove horizontal padding*/}
             <Container fluid className='nav-bar-left nav-bar-right'>
-                {/* <Link></Link> */}
-                <Navbar.Brand href="/">Net-Zone</Navbar.Brand> {/* I initially used "Team-Net" */}
+               
+                <Navbar.Brand className='nav-brand' href="/">Net-Zone</Navbar.Brand> {/* I initially used "Team-Net" */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
 
