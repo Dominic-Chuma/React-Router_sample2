@@ -42,12 +42,6 @@ function App() {
 
       {/* Navigation End.... */}
 
-      {/* Demarcation Div - Start */}
-      {/* <div className='demarcation-div'>
-
-      </div> */}
-      {/* Demarcation Div - End */}
-
     </div>
   );
 }
