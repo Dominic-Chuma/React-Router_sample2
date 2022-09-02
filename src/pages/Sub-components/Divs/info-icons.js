@@ -8,11 +8,86 @@ const InfoWithIconDiv = () => {
     return (
         <Container>
             <Row>
-                <Col>
-                    <div className='info-icon-div'>
+                {/* Column 1. */}
+                <Col sm='6' md='4' lg='4'>
+                    {/* <div className='info-icon-div'> */}
                     {/* Some Things can be placed here llike welcome messages. */}
-                    </div> 
+                    {/* </div>  */}
+                    <Card border="light" >
+                        <Card.Body>
+                            {/* <Card.Title>Card Title</Card.Title> */}
+                            <Card.Title> <FaCartArrowDown className="font-icons" /> </Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Shopping</Card.Subtitle>
+                            <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                            </Card.Text>
+                            <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link>
+                        </Card.Body>
+                    </Card>
                 </Col>
+
+                {/* Column 2. */}
+                <Col sm='6' md='4' lg='4'>
+                    {/* <div className='info-icon-div'> */}
+                    {/* Some Things can be placed here llike welcome messages. */}
+                    {/* </div>  */}
+                    <Card border="light" >
+                        <Card.Body>
+                            {/* <Card.Title>Card Title</Card.Title> */}
+                            <Card.Title> <FaGamepad className="font-icons" /> </Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Gaming.</Card.Subtitle>
+                            <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                            </Card.Text>
+                            <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
+                {/* Column 3. */}
+                <Col sm='6' md='4' lg='4'>
+                    {/* <div className='info-icon-div'> */}
+                    {/* Some Things can be placed here llike welcome messages. */}
+                    {/* </div>  */}
+                    <Card border="light" >
+                        <Card.Body>
+                            {/* <Card.Title>Card Title</Card.Title> */}
+                            <Card.Title> <FaUserFriends className="font-icons" /> </Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Friendship & Networking</Card.Subtitle>
+                            <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                            </Card.Text>
+                            <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
+                {/* Column 4. */}
+                <Col sm='6' md='4' lg='4'>
+                    {/* <div className='info-icon-div'> */}
+                    {/* Some Things can be placed here llike welcome messages. */}
+                    {/* </div>  */}
+                    <Card border="light" >
+                        <Card.Body>
+                            {/* <Card.Title>Card Title</Card.Title> */}
+                            <Card.Title> <FaBookReader className="font-icons" /> </Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Learning..</Card.Subtitle>
+                            <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                            </Card.Text>
+                            <Card.Link href="#">Card Link</Card.Link>
+                            <Card.Link href="#">Another Link</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
             </Row>
         </Container>
     )
