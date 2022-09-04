@@ -1,6 +1,7 @@
 import MyCarousel from "./Sub-components/Carousels/Carousel";
 import DemarcationDiv from "./Sub-components/Divs/demarcation";
 import InfoWithIconDiv from "./Sub-components/Divs/info-icons";
+import FooterDiv from "./Sub-components/Divs/footer";
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <MyCarousel />
             <DemarcationDiv/>
             <InfoWithIconDiv/>
+            <FooterDiv/>
             {/* Home Page - Ending... */}
         </>
     )
