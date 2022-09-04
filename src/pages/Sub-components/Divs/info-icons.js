@@ -88,7 +88,7 @@ const InfoWithIconDiv = () => {
                     </Card>
                 </Col>
 
-                {/* Column 4. */}
+                {/* Column 5. */}
                 <Col sm='6' md='4' lg='4'>
                     {/* <div className='info-icon-div'> */}
                     {/* Some Things can be placed here llike welcome messages. */}
@@ -108,7 +108,7 @@ const InfoWithIconDiv = () => {
                     </Card>
                 </Col>
 
-                {/* Column 4. */}
+                {/* Column 6. */}
                 <Col sm='6' md='4' lg='4'>
                     {/* <div className='info-icon-div'> */}
                     {/* Some Things can be placed here llike welcome messages. */}
