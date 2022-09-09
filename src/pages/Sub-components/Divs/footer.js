@@ -3,6 +3,7 @@ const FooterDiv = () => {
         <div className='footer-div'>
             {/* Some Things can be placed here llike welcome messages. */}
         </div> 
+        
     )
 }
 
