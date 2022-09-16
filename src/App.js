@@ -8,6 +8,7 @@ import Layout from './pages/layout/Layout';
 import Home from './pages/Home';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
+import FooterDiv from './pages/layout/footer';
 
 
 
@@ -41,6 +42,27 @@ function App() {
       </BrowserRouter>
 
       {/* Navigation End.... */}
+
+      {/* Footer Start.... */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<FooterDiv/>}> 
+          
+            <Route index element={<Home/>} /> 
+            <Route path='team' element={<Team/>} /> 
+            <Route path='contact' element={<Contact/>} />
+            {/* <Route path='*' element={<NoPage/>} /> */}
+            
+           
+          {/* </Route> */}
+          {/* Nest another set of routes*/}
+          {/* <Route path='products' element={<Info/>} > */}
+            
+          </Route>
+        </Routes>
+      </BrowserRouter>
+
+      {/* Footer End.... */}
 
     </div>
   );

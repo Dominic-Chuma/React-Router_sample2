@@ -45,6 +45,9 @@ let Layout = () => {
 
 
             {/* Commence the footer Navbar */}
+            {/* <Navbar bg="light" >
+
+            </Navbar> */}
 
             <Outlet/> {/* Remeber the Outlet*/}
         </>
