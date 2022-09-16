@@ -2,6 +2,10 @@ import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Timer from "../Sub-components/Divs/time";
+
+// Import
+
 
 const FooterDiv = () => {
     return (
@@ -48,7 +52,7 @@ const FooterDiv = () => {
                 {/* <hr/> */}
                 <Row>
                     <div>
-                        &copy; Energy Ransoms Limited.
+                        &copy; Energy Ransoms Limited, <strong>(</strong>2022<strong>)</strong> Time: <Timer/>
                     </div>
                 </Row>
                 {/* <hr/> */}
