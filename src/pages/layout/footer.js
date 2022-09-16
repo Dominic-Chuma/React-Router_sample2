@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 
 import Timer from "../Sub-components/Divs/time";
 
-// Import
+// Import all the react-icons for the footer
 
 
 const FooterDiv = () => {
